@@ -19,7 +19,13 @@ const BmiCalculator = () => {
 
   useEffect(() => {
     document.title = `Your BMI: ${getBmi(height, weight)}`;
+  });
+
+  useEffect(() => {
     localStorage.setItem("height", JSON.stringify(height));
+  });
+
+  useEffect(() => {
     localStorage.setItem("weight", JSON.stringify(weight));
   });
 
