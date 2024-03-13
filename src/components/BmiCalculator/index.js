@@ -23,11 +23,11 @@ const BmiCalculator = () => {
 
   useEffect(() => {
     localStorage.setItem("height", JSON.stringify(height));
-  });
+  }, [height]);
 
   useEffect(() => {
     localStorage.setItem("weight", JSON.stringify(weight));
-  });
+  }, [weight]);
 
   const incrementHeight = () => {
     setHeight((prevHeight) => prevHeight + 1);
