@@ -1,10 +1,8 @@
 import { Component } from "react";
-import CommentsComponent from "./components/CommentsComponent/index.js";
 //import Clock from "./components/Clock/index.js";
 
 //import logo from "./logo.svg";
 import "./App.css";
-import Greeting from "./components/Greeting/index.js";
 import BmiCalculator from "./components/BmiCalculator/index.js";
 
 // class App extends Component {
